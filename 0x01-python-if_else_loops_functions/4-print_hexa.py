@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for hexdec in range(99):
-    print(f"{hexdec} = 0x{hexdec:02x}")
+for hexnum in range(98 + 1):
+    print("{} = 0x{:x}".format(hexnum, hexnum))
